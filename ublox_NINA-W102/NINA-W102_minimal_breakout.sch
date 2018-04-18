@@ -209,8 +209,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ublox NINA-W102 minimal breakout"
-Date "2018-04-17"
-Rev "0.3"
+Date "2018-04-18"
+Rev "0.4"
 Comp "GDG Zürich"
 Comment1 "Michel Racic"
 Comment2 ""
@@ -411,19 +411,19 @@ F 4 "Serial" H 3400 7450 60  0000 C CNN "Field4"
 $EndComp
 Text GLabel 9950 3300 2    60   Input ~ 0
 RXD
-Text GLabel 3900 6650 2    60   Input ~ 0
+Text GLabel 3900 6650 2    60   Output ~ 0
 RXD
-Text GLabel 3900 6500 2    60   Output ~ 0
+Text GLabel 3900 6500 2    60   Input ~ 0
 TXD
-Text GLabel 3900 6800 2    60   Input ~ 0
+Text GLabel 3900 6800 2    60   Output ~ 0
 DTR
-Text GLabel 3900 6300 2    60   Input ~ 0
+Text GLabel 3900 6300 2    60   Output ~ 0
 CTS
 Text GLabel 10650 3750 2    60   Input ~ 0
 DTR
 Text GLabel 10000 3450 2    60   Output ~ 0
 TXD
-Text GLabel 9950 3600 2    60   Input ~ 0
+Text GLabel 10600 1700 2    60   Input ~ 0
 CTS
 Text Notes 2600 7050 0    60   ~ 0
 Special breakout for external serial adapter
@@ -468,8 +468,6 @@ Wire Wire Line
 	8300 3650 8300 3450
 Wire Wire Line
 	8300 3450 7750 3450
-Wire Wire Line
-	8400 3550 9900 3550
 Wire Wire Line
 	8400 3550 8400 3350
 Wire Wire Line
@@ -729,7 +727,7 @@ Connection ~ 10450 2950
 Wire Wire Line
 	10150 2750 10150 1700
 Wire Wire Line
-	10150 1700 10450 1700
+	10150 1700 10600 1700
 Connection ~ 9550 2750
 Wire Wire Line
 	2950 4050 2950 4100
@@ -794,7 +792,6 @@ Wire Wire Line
 	8500 3450 10000 3450
 Connection ~ 9550 3350
 Connection ~ 9550 3450
-Connection ~ 9550 3550
 Wire Notes Line
 	2400 5700 2400 7200
 Wire Notes Line
@@ -807,10 +804,6 @@ Wire Wire Line
 	9950 3300 9900 3300
 Wire Wire Line
 	9900 3300 9900 3350
-Wire Wire Line
-	9950 3600 9900 3600
-Wire Wire Line
-	9900 3600 9900 3550
 Wire Wire Line
 	3700 4300 3700 4350
 Wire Notes Line
@@ -832,26 +825,11 @@ F 3 "" H 6950 4100 50  0001 C CNN
 	1    6950 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR_IO05
-U 1 1 5AD5EE0C
-P 1400 800
-F 0 "#PWR_IO05" H 1400 650 50  0001 C CNN
-F 1 "+3.3V" H 1400 940 50  0000 C CNN
-F 2 "" H 1400 800 50  0001 C CNN
-F 3 "" H 1400 800 50  0001 C CNN
-	1    1400 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 800  1400 1500
 Wire Wire Line
 	2400 4050 3500 4050
 Text Label 10450 3200 0    60   ~ 0
 VCC_IO
 Text Label 3200 3950 0    60   ~ 0
-VCC_IO
-Text Label 1400 1500 0    60   ~ 0
 VCC_IO
 Wire Wire Line
 	8200 3750 10650 3750
@@ -868,4 +846,21 @@ VCC_IO
 Text Label 4350 6100 0    60   ~ 0
 VCC
 Connection ~ 2400 2950
+Wire Wire Line
+	9550 3550 8400 3550
+Text Label 1400 1500 0    60   ~ 0
+VCC_IO
+Wire Wire Line
+	1400 800  1400 1500
+$Comp
+L +3.3V #PWR_IO05
+U 1 1 5AD5EE0C
+P 1400 800
+F 0 "#PWR_IO05" H 1400 650 50  0001 C CNN
+F 1 "+3.3V" H 1400 940 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
