@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 104.064999 95.987799 151.205001 116.864201)
     (thickness 1.6)
-    (drawings 41)
+    (drawings 42)
     (tracks 480)
     (zones 0)
     (modules 17)
@@ -1125,6 +1125,9 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text rev.0.3 (at 123.2916 106.7816 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.127)))
+  )
   (gr_line (start 151.13 112.3442) (end 146.8882 116.7892) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 151.13 100.2792) (end 151.13 112.3442) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 146.8628 96.0628) (end 151.13 100.2792) (layer Edge.Cuts) (width 0.15))
