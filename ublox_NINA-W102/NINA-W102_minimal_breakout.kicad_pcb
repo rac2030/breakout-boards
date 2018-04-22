@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 104.064999 95.987799 151.205001 116.864201)
     (thickness 1.6)
-    (drawings 58)
+    (drawings 59)
     (tracks 480)
     (zones 0)
     (modules 17)
@@ -1125,6 +1125,9 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text AD34 (at 109.601 100.1522 180) (layer F.SilkS) (tstamp 5ADF0329)
+    (effects (font (size 0.5 0.5) (thickness 0.12)) (justify right))
+  )
   (gr_text T5 (at 119.5578 100.1014 180) (layer F.SilkS) (tstamp 5ADF0324)
     (effects (font (size 0.5 0.5) (thickness 0.12)) (justify right))
   )
