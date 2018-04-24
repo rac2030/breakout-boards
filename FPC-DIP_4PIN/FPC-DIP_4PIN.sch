@@ -38,8 +38,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FPC to DIP Breadboard adapter"
-Date "2018-04-13"
-Rev "0.1"
+Date "2018-04-24"
+Rev "0.2"
 Comp "GDG Zürich"
 Comment1 "Usefull for Sensirion samples on Flex PCB"
 Comment2 ""
@@ -200,4 +200,12 @@ D8 3E C2 71 DC 89 13 27 B6 6D DB A6 76 39 08 72 37 FF 01 52 DC 74 AA 55 18 B9 98
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Label 6050 3650 0    60   ~ 0
+VCC
+Text Label 5850 3750 0    60   ~ 0
+SCL
+Text Label 6050 3850 0    60   ~ 0
+GND
+Text Label 5900 3950 0    60   ~ 0
+SDA
 $EndSCHEMATC
