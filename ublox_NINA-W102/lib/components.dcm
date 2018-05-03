@@ -16,4 +16,10 @@ D Normally closed trace jumper This jumper has a trace between two pads so it's 
 K PROD_ID:XXX-00000
 $ENDCMP
 #
+$CMP NINA-W102
+D Stand-alone multiradio MCU modules that integrate a powerful microcontroller (MCU)
+K ESP-32, WLAN, Bluetooth
+F https://www.u-blox.com/sites/default/files/NINA-W10_DataSheet_%28UBX-17065507%29.pdf
+$ENDCMP
+#
 #End Doc Library
