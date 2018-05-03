@@ -1,4 +1,4 @@
-update=Wed May  2 16:09:26 2018
+update=Thu May  3 11:17:07 2018
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -232,13 +242,4 @@ LibName200=/home/rac/Documents/electronics/kicad-cloned-libs/digikey-kicad-libra
 LibName201=/home/rac/Documents/electronics/kicad-cloned-libs/digikey-kicad-library/digikey-symbols/dk_Transistors-JFETs
 LibName202=/home/rac/Documents/electronics/kicad-cloned-libs/digikey-kicad-library/digikey-symbols/dk_Trimmer-Potentiometers
 LibName203=/home/rac/Documents/electronics/kicad-cloned-libs/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName204=lib/components
