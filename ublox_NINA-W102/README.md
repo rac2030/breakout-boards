@@ -1,5 +1,6 @@
 # ublox NINA-W102 breakout for breadboard prototyping
 Project page with more information and background: http://rac.su/ninab
+
 Hackaday Project entry: https://hackaday.io/project/151749-ublox-nina-w102-minimal-breakout
 
 ![3D Rendering](images/NINA-W102_minimal_breakout-PCB.rev.0.3-3D-TOP.png?raw=true "3D Rendering")
