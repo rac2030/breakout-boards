@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 598.00854 175.09019"
+   viewBox="0 0 642.2395 223.4235"
    stroke-miterlimit="10"
    id="svg23"
    sodipodi:docname="GDG-mono.svg"
-   width="598.00854"
-   height="175.09019"
+   width="642.2395"
+   height="223.42351"
    style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    inkscape:export-filename="/home/rac/Documents/electronics/breakout-boards/ublox_NINA-W102/silkscreen/GDG-logo-mono.png"
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,8 +51,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.6"
-     inkscape:cx="-716.67483"
-     inkscape:cy="448.09574"
+     inkscape:cx="-136.74344"
+     inkscape:cy="73.095706"
      inkscape:window-x="1190"
      inkscape:window-y="405"
      inkscape:window-maximized="0"
@@ -68,7 +68,7 @@
   <g
      clip-path="url(#g38e44dbbcf_2_858.0)"
      id="g21"
-     transform="translate(-660.39035,-455.34946)">
+     transform="translate(-638.15088,-432.01611)">
     <rect
        style="fill:#ffffff;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect16"
