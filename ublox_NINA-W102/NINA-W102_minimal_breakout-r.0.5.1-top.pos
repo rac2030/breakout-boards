@@ -1,0 +1,16 @@
+### Module positions - created on Thu Jun 21 01:50:54 2018 ###
+### Printed by Pcbnew version kicad 4.0.7-e2-6376~60~ubuntu17.10.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                            PosX       PosY       Rot  Side
+C1        100nF            C_1206_HandSoldering           134.6200  -103.0920   90.0000  top
+C2        100nF            C_1206_HandSoldering           134.6200  -109.7280   90.0000  top
+C4        1uF              C_1206_HandSoldering           128.0480  -111.5060    0.0000  top
+D1        PWR RED          LED_1206_HandSoldering         121.4120  -109.9820  270.0000  top
+R1        1k               R_1206_HandSoldering           121.4120  -103.1560   90.0000  top
+R2        10k              R_1206_HandSoldering           114.5860  -104.3940  180.0000  top
+R3        10k              R_1206_HandSoldering           128.0480  -108.7120  180.0000  top
+SW1       BOOT             TACTILE_SWITCH_SMD_6.0X6.0MM   114.5540  -108.9660    0.0000  top
+SW2       RESET            TACTILE_SWITCH_SMD_6.0X6.0MM   128.1176  -103.6320  180.0000  top
+U1        NINA-W102        NINA-W102                      143.6370  -106.6800    0.0000  top
+## End

@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ublox NINA-W102 minimal breakout"
-Date "2018-04-18"
-Rev "0.5"
+Date "2018-06-21"
+Rev "0.5.1"
 Comp "GDG Zürich"
 Comment1 "Michel Racic"
 Comment2 ""
@@ -197,6 +197,7 @@ F 1 "1uF" H 10610 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10600 2150 50  0001 C CNN
 F 3 "" H 10600 2150 50  0001 C CNN
 F 4 "732-7692-1-ND" H 10600 2150 60  0001 C CNN "Digikey"
+F 5 "Leave unpopulated" H 10600 2150 60  0001 C CNN "Assembly"
 	1    10600 2150
 	1    0    0    -1  
 $EndComp
